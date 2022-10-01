@@ -26,3 +26,6 @@ up:
 
 down:
 	$(docker_compose_bin) down
+
+clone-services:
+	/bin/bash ./scripts/clone-services.sh
